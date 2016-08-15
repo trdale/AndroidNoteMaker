@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ListView
+        android:id="@+id/myListView"
+        android:choiceMode="singleChoice"
+        android:listSelector="@android:color/darker_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="390dp"
+        android:clickable="true">
+    </ListView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="83dp">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:text="Edit Note"
+            android:id="@+id/editNoteButton" />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:text="Delete Note"
+            android:id="@+id/deleteNoteButton" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:text="New Note"
+            android:id="@+id/newNoteButton" />
+
+    </LinearLayout>
+
+</LinearLayout>

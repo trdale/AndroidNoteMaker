@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidNoteMaker</string>
+    <string name="title_activity_add_note_acticity">AddNoteActicity</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+</resources>
